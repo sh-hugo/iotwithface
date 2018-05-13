@@ -182,7 +182,7 @@ def show_prediction_labels_on_image(img_path, predictions):
 
 
 if __name__ == "__main__":
-    # STEP 1: Train the KNN classifier and save it to disk
+    # Train the KNN classifier and save it to disk
     # Once the model is trained and saved, you can skip this step next time.
     print("Training KNN classifier...")
     classifier = train("train", model_save_path="trained_knn_model.clf", n_neighbors=2)
